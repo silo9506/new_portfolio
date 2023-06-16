@@ -1,0 +1,55 @@
+.background {
+  position: fixed;
+  width: 130vw;
+  height: 100vh;
+  transition: all 1s cubic-bezier(0.22, 0.44, 0, 1);
+  transform: translateX(20vw);
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.background .content {
+  width: 100vw;
+  transition: all 1s cubic-bezier(0.22, 0.44, 0, 1);
+  transform: translateX(80vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.background:first-child {
+  transform: translateX(-15vw);
+  z-index: 10;
+}
+.background:first-child .content {
+  transform: translateX(15vw);
+}
+
+.background:nth-child(2) {
+  z-index: 9;
+}
+
+.background:nth-child(3) {
+  z-index: 8;
+}
+
+.background.invisible {
+  transform: translateX(-130vw);
+}
+
+.background.invisible > .content {
+  transform: translateX(20vw);
+}
+
+.background.invisible + :not(.invisible) {
+  transform: translateX(-15vw);
+}
+
+.background.invisible + :not(.invisible) > .content {
+  transform: translateX(15vw);
+}
