@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/silo9506/new_portfolio.git/static/css/main.2089b983.css",
-    "main.js": "/silo9506/new_portfolio.git/static/js/main.aac5e9ab.js",
-    "static/media/todo02.png": "/silo9506/new_portfolio.git/static/media/todo02.2e84fa22ea0b889fce48.png",
-    "static/media/Youtube01.png": "/silo9506/new_portfolio.git/static/media/Youtube01.aa534b0a39c4374bca4c.png",
-    "static/media/Youtube03.png": "/silo9506/new_portfolio.git/static/media/Youtube03.ad39a3187f74901982c9.png",
-    "static/media/MB03.png": "/silo9506/new_portfolio.git/static/media/MB03.c8f5b303995d2db5f01c.png",
-    "static/media/Youtube02.png": "/silo9506/new_portfolio.git/static/media/Youtube02.c384d2d4e93c8e4c6561.png",
-    "static/media/Shopping01.png": "/silo9506/new_portfolio.git/static/media/Shopping01.cc9efa517b3f795d642b.png",
-    "static/media/MB01.png": "/silo9506/new_portfolio.git/static/media/MB01.ef2ec10e9aef3db5ddd6.png",
-    "static/media/MB02.png": "/silo9506/new_portfolio.git/static/media/MB02.fd92c2ec697acbeb6351.png",
-    "static/media/todo01.png": "/silo9506/new_portfolio.git/static/media/todo01.f3dfe3f9680c0f7ab035.png",
-    "static/media/Shopping04.png": "/silo9506/new_portfolio.git/static/media/Shopping04.963bea6d20a38162ba81.png",
-    "static/media/Shopping03.png": "/silo9506/new_portfolio.git/static/media/Shopping03.9d7d9b03e93246307eee.png",
-    "static/media/Shopping02.png": "/silo9506/new_portfolio.git/static/media/Shopping02.39fdf637338643428b6f.png",
-    "index.html": "/silo9506/new_portfolio.git/index.html",
-    "main.2089b983.css.map": "/silo9506/new_portfolio.git/static/css/main.2089b983.css.map",
-    "main.aac5e9ab.js.map": "/silo9506/new_portfolio.git/static/js/main.aac5e9ab.js.map"
+    "main.css": "/new_portfolio/static/css/main.2089b983.css",
+    "main.js": "/new_portfolio/static/js/main.8e050f3d.js",
+    "static/media/todo02.png": "/new_portfolio/static/media/todo02.2e84fa22ea0b889fce48.png",
+    "static/media/Youtube01.png": "/new_portfolio/static/media/Youtube01.aa534b0a39c4374bca4c.png",
+    "static/media/Youtube03.png": "/new_portfolio/static/media/Youtube03.ad39a3187f74901982c9.png",
+    "static/media/MB03.png": "/new_portfolio/static/media/MB03.c8f5b303995d2db5f01c.png",
+    "static/media/Youtube02.png": "/new_portfolio/static/media/Youtube02.c384d2d4e93c8e4c6561.png",
+    "static/media/Shopping01.png": "/new_portfolio/static/media/Shopping01.cc9efa517b3f795d642b.png",
+    "static/media/MB01.png": "/new_portfolio/static/media/MB01.ef2ec10e9aef3db5ddd6.png",
+    "static/media/MB02.png": "/new_portfolio/static/media/MB02.fd92c2ec697acbeb6351.png",
+    "static/media/todo01.png": "/new_portfolio/static/media/todo01.f3dfe3f9680c0f7ab035.png",
+    "static/media/Shopping04.png": "/new_portfolio/static/media/Shopping04.963bea6d20a38162ba81.png",
+    "static/media/Shopping03.png": "/new_portfolio/static/media/Shopping03.9d7d9b03e93246307eee.png",
+    "static/media/Shopping02.png": "/new_portfolio/static/media/Shopping02.39fdf637338643428b6f.png",
+    "index.html": "/new_portfolio/index.html",
+    "main.2089b983.css.map": "/new_portfolio/static/css/main.2089b983.css.map",
+    "main.8e050f3d.js.map": "/new_portfolio/static/js/main.8e050f3d.js.map"
   },
   "entrypoints": [
     "static/css/main.2089b983.css",
-    "static/js/main.aac5e9ab.js"
+    "static/js/main.8e050f3d.js"
   ]
 }
