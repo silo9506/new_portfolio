@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body ::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 #scroll-animate {
   overflow: hidden;
 }

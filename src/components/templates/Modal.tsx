@@ -4,13 +4,14 @@ import useThrottle from "../../hooks/useThrottle";
 import { BiRightArrow } from "react-icons/bi";
 import { BiLeftArrow } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
+import { ImCross } from "react-icons/im";
 interface Props {
   item: ModalItem;
   setOnModal: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 export default function Modal({ item, setOnModal }: Props) {
-  const { title, url, about, skile, img } = item;
+  const { title, url, about, skile, img, git } = item;
   const [activeIndex, setActiveIndex] = useState<number>(1);
   const [animate, setAnimate] = useState(false);
   const itemsList = [img.at(-1), ...img, img.at(0)] as string[];
@@ -90,7 +91,10 @@ export default function Modal({ item, setOnModal }: Props) {
         onClick={onClickModal}
       >
         <div className="mx-auto w-fit ">
-          <h1 className="text-4xl font-bold text-[#cacaca] ">{title}</h1>
+          <div className="flex items-center justify-between">
+            <h1 className="text-4xl font-bold text-[#cacaca] ">{title}</h1>
+            <ImCross className="cursor-pointer" onClick={onClickBackdrop} />
+          </div>
           <div className="flex gap-4 my-4 ">
             <button className="p-2 bg-[#313131] rounded shadow-inner cursor-pointer  ">
               <a href={url} target="_blank">
@@ -98,7 +102,7 @@ export default function Modal({ item, setOnModal }: Props) {
               </a>
             </button>
             <button className="p-2 bg-[#313131] rounded shadow-inner cursor-pointer  ">
-              <a>
+              <a href={git} target="_blank">
                 <BsGithub />
               </a>
             </button>
